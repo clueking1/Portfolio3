@@ -49,3 +49,18 @@ a:hover {
     background-color: #454748b7;
     color: #91b0cc
 }
+
+.mainDiv {
+
+    background-image: url('../IMGS/6.jpg');
+  
+
+    min-height: 100%; 
+  
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
