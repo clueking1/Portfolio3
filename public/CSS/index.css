@@ -5,6 +5,46 @@ html,body
     margin: 0px;
     padding: 0px;
 }
+.link1 { grid-area: link1;
+    transition: .3s ease-in-out;
+}
+.link2 { grid-area: link2;
+    transition: .3s ease-in-out;
+ }
+.link3 { grid-area: link3; 
+    transition: .3s ease-in-out;}
+
+
+
+.img1 { grid-area: img1; 
+    background: url(../images/1.jpg) no-repeat center center scroll;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     width: 100%;
+    height: 800px;
+  
+   
+}
+
+.nav {
+    font-size: 1.5em;
+    display: grid;
+    grid-template-areas: 'link1 link1 link2 link2 link3 link3'
+    'link1 link1 link2 link2 link3 link3';
+    width: 100%;
+}
+
+.allMainContents {
+    display: grid;
+    grid-template-areas:
+    
+    'img1 img1 img1 img1 img1 img1'
+    'img1 img1 img1 img1 img1 img1';
+ 
+   
+}
 
 .head {
 
@@ -12,78 +52,27 @@ html,body
     position: -webkit-sticky;
     top: 0;
     z-index: 1;
+
   
   }
-  
-  .nav{
-    transition: .3s ease-in-out;
-  }
-  
-  
-  .link1 {
-    width: 32%;
-    float: left;
-    list-style-type: none;
+
+.nav > a {
     text-align: center;
-  }
-  
-  nav a {
+    padding: 28px 0px;
     text-decoration: none;
-    color:#91b0cc;
-    padding: 9px;
-    border: 2px groove;
+    color:#f2f0f5d6;
+    border: 2px;
+    background-color:  #000000b0;
+
     box-shadow: 20px 20px 20px 20px #91b0cc1c;
     transition: .3s ease-in-out;
-  }
-  
-  .yes {
-  
-  }
-  
-  nav a:hover {
-    background-color:#39375f87;
-     padding: 12px;
-  }
-  
-  .link2 {
-    width: 33%;
-    float: left;
-    list-style-type: none;
-    text-align: center;
-  
-  }
-  
-  .link2 a {
-    text-decoration: none;
-    color:#91b0cc;
     
-  }
-  
-  
-  .link3 {
-    width: 33%;
-    float: left;
-    list-style-type: none;
-    text-align: center;
-  
-   
-  }
-  
-  .link3 a {
-    text-decoration: none;
-    color:#91b0cc
-  }
-  
-  
-  nav {
-    float: left;
-    width: 100%;
-    left: 0;
-    right: 0;
-    margin: 0px auto;
-    padding-bottom: 16px;
-  
-  }
+}
+
+a:hover {
+    background-color: #454748b7;
+    color: #91b0cc
+}
 
 
 .mainDiv {
