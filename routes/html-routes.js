@@ -9,7 +9,7 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname, '../public/portfolio.html'))
     })
 
-    app.get('/signup', (_, res) => {
+    app.get('/contact', (_, res) => {
         res.sendFile(path.join(__dirname, '../public/contact.html'))
     })
 
