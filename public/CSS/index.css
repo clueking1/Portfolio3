@@ -1,0 +1,101 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+  
+  }
+  
+  .nav{
+    transition: .3s ease-in-out;
+  }
+  
+  
+  .link1 {
+    width: 32%;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:#91b0cc;
+    padding: 9px;
+    border: 2px groove;
+    box-shadow: 20px 20px 20px 20px #91b0cc1c;
+    transition: .3s ease-in-out;
+  }
+  
+  .yes {
+  
+  }
+  
+  nav a:hover {
+    background-color:#39375f87;
+     padding: 12px;
+  }
+  
+  .link2 {
+    width: 33%;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+  
+  }
+  
+  .link2 a {
+    text-decoration: none;
+    color:#91b0cc;
+    
+  }
+  
+  
+  .link3 {
+    width: 33%;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+  
+   
+  }
+  
+  .link3 a {
+    text-decoration: none;
+    color:#91b0cc
+  }
+  
+  
+  nav {
+    float: left;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    padding-bottom: 16px;
+  
+  }
+
+
+.mainDiv {
+
+    background-image: url('../IMGS/1.jpg');
+  
+
+    min-height: 100%; 
+  
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
