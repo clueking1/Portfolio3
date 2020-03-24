@@ -64,3 +64,83 @@ a:hover {
     background-size: cover;
   }
 
+
+.about {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 150px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.socialIcons {
+  position: relative;
+  width: 150px;
+  height: 60px
+}
+
+.gitHub {
+
+  width: 73px;
+  float: left;
+}
+
+.linkedin {
+
+  width: 75px;
+  float: left;
+}
+
+.resBut1 {
+  width: 75px;
+  transition: .2s ease-in-out;
+}
+
+.resBut1:hover {
+  cursor: pointer;
+  background-color: #00000052;
+
+}
+
+
+
+.wholeForm {
+  clear: both;
+  height:100px;
+
+}
+
+.title {
+  color: white;
+  border: 2px solid white;
+  background-color: #000000b0;
+  padding: 10px;
+}
+
+.submit {
+  margin-top: 10px;
+  width: 100px;
+  color: white;
+  border: 2px solid white;
+  background-color: #000000b0;
+  cursor: pointer;
+}
+
+.form-control {
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid white;
+  background-color: #000000b0;
+}
+
+.form-message {
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid white;
+  background-color: #000000b0;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
