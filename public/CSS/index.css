@@ -118,3 +118,36 @@ a:hover {
   float: left;
   margin-left: 80px;
 }
+
+@media only screen and (max-width: 600px) {
+    .aboutMeContents {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 400px;
+        margin-top: 100px;
+        text-align: center;
+      }
+
+      .slideHead1 {
+
+  margin-left: 50px;
+}
+   
+}
+
+@media only screen and (max-width: 500px) {
+    .aboutMeContents {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 350px;
+        margin-top: 50px;
+        text-align: center;
+      }
+      
+            .slideHead1 {
+
+  margin-left: 43px;
+}
+}
