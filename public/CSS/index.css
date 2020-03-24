@@ -64,3 +64,57 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .aboutMeContents {
+    width: 600px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: 150px;
+  }
+
+  .aboutMeDiv {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    color: white;
+    border: 2px solid white;
+    background-color: #000000b0;
+    padding: .5em;
+  }
+
+  .resBut {
+  width: 40%;
+  transition: .2s ease-in-out;
+  padding: 1.2em;
+  float: left;
+}
+
+.resBut:hover {
+  cursor: pointer;
+  background-color: #00000052;
+  
+}
+
+.slideRes {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.slideHead1 {
+  width: 30%;
+  color: white;
+  border: 2px solid white;
+  background-color: #000000b0;
+  padding: .5em;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  float: left;
+  margin-left: 80px;
+}
