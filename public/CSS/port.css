@@ -114,36 +114,43 @@ img {
     
     opacity: 1;
     transition: .6s ease-in-out;
+    visibility: visible;
 }
 
   .b {
     opacity: 0;
       transition: .6s ease-in-out;
+      visibility: hidden;
   }
 
   .c {
     opacity: 0;
     transition: .6s ease-in-out;
+    visibility: hidden;
 }
 
 .d {
     opacity: 0;
     transition: .6s ease-in-out;
+    visibility: hidden;
 }
 
 .e {
     opacity: 0;
     transition: .6s ease-in-out;
+    visibility: hidden;
 }
 
 .f {
     opacity: 0;
     transition: .6s ease-in-out;
+    visibility: hidden;
 }
 
 .g {
     opacity: 0;
     transition: .6s ease-in-out;
+    visibility: hidden;
 }
 
 .scrollUp{
