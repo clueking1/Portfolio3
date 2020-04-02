@@ -59,8 +59,8 @@ img {
 
 
 .aDiv {
-    max-width: 400px;
-    min-width: 300px;
+   width: 400px;
+
 }
 
 
@@ -101,7 +101,7 @@ img {
       width: 400px;
       left: 0;
       right: 0;
-      margin: 3% auto;
+      margin: 5% auto;
       transition: .6s ease-in-out;
   }
 
@@ -200,4 +200,55 @@ img {
 
 .seven {
     background-color: #bbb;
-}   
+}  
+
+@media only screen and (max-width: 450px) {
+
+    .scrollUp{
+        color: white;
+        width: 300px;
+        left: 0;
+        right:0;
+        margin: 3% auto;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    img {
+        height: 250px;
+        width: 250px;
+    
+    }
+    
+    
+    .aDiv {
+        width: 250px;
+     
+    }
+
+    .item {
+        position: absolute;
+        width: 250px;
+        left: 0;
+        right: 0;
+        margin: 10% auto;
+        transition: .6s ease-in-out;
+    }
+   
+    .portA2 {
+ 
+        width: 49.2%;
+      
+        padding: 6px 0;
+  
+      }
+
+      .portA {
+ 
+        width: 49.2%;
+      
+        padding: 6px 0;
+  
+      }
+
+}
