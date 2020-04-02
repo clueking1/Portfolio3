@@ -95,3 +95,10 @@ img {
     padding: 10px 0;
     color:#f2f0f5d6;
   }
+
+  .item {
+      width: 400px;
+      left: 0;
+      right: 0;
+      margin: 8% auto;
+  }
