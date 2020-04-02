@@ -97,6 +97,7 @@ img {
   }
 
   .item {
+      position: absolute;
       width: 400px;
       left: 0;
       right: 0;
@@ -105,5 +106,14 @@ img {
 
   .empty {
       margin-bottom: 100px;
-      height: 300px;
+      height: 800px;
+  }
+
+  .a {
+    
+    visibility: visible;
+}
+
+  .b {
+      visibility: hidden;
   }
